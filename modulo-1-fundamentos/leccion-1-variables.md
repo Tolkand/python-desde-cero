@@ -30,14 +30,17 @@ En la práctica, puedes pensarla como una **caja etiquetada** donde guardas algo
 
 Sintaxis:
 
-## python
+#### python
 nombre_variable = valor
 Ejemplo:
 
-## python
+#### python
 nombre = "Ana"
 edad = 28
-2.2 Tipos de datos básicos
+
+
+### 2.2 Tipos de datos básicos
+
 Python trae varios tipos de datos integrados. En esta lección veremos 4:
 
 int: números enteros (sin decimales).
@@ -48,7 +51,7 @@ str: texto (cadenas de caracteres).
 
 bool: valores lógicos, True o False.
 
-## Ejemplo:
+Ejemplo:
 
 python
 entero = 10          # int
@@ -62,8 +65,13 @@ print(type(entero))        # <class 'int'>
 print(type(decimal))       # <class 'float'>
 print(type(texto))         # <class 'str'>
 print(type(es_programador))# <class 'bool'>
-3. Ejemplos prácticos
-3.1 Ejemplo básico
+
+
+
+### 3. Ejemplos prácticos
+#### 3.1 Ejemplo básico
+
+
 python
 nombre = "Ana"
 edad = 28
@@ -75,7 +83,9 @@ Salida esperada:
 text
 Nombre: Ana
 Edad: 28
-3.2 Conversión de tipos (casting)
+
+
+### 3.2 Conversión de tipos (casting)
 Muchas veces necesitas convertir datos. Por ejemplo, de número a texto o de texto a número.
 
 python
@@ -87,12 +97,76 @@ texto_numero = int(texto)    # 100
 
 print(type(numero_texto))    # <class 'str'>
 print(texto_numero + 50)     # 150
-3.3 Error común
+
+
+### 3.3 Error común  
+
 python
+Esto genera error:
+resultado = "10" + 5
 
-# Esto genera error:
-# resultado = "10" + 5
-
-# Forma correcta:
+Forma correcta:
 resultado = int("10") + 5
 print(resultado)  # 15
+
+
+### 4. Ejercicios
+
+Ejercicio 1 (fácil)
+Crea variables para:
+
+Tu nombre (str).
+
+Tu edad (int).
+
+Tu altura en metros (float).
+
+Si te gusta programar (bool).
+
+Muestra cada una en pantalla junto con su tipo.
+
+#### Ejercicio 2 (medio)
+Tienes este código:
+
+python
+numero = "25"
+Convierte 'numero' a int y súmale 10.
+Completa el código para que Python imprima 35.
+
+Ejercicio 3 (desafío)
+Escribe un programa que:
+
+Pida tu nombre por teclado.
+
+Pida tu edad por teclado.
+
+Calcule en qué año naciste (puedes suponer que estamos en 2026).
+
+Muestre un mensaje como:
+Hola Ana, probablemente naciste en 1998.
+
+### 5. Resumen y siguiente paso
+
+En esta lección viste:
+
+Qué es una variable.
+
+Cuatro tipos básicos: int, float, str, bool.
+
+Cómo usar type() y cómo hacer conversiones de tipo.
+
+En la próxima lección aprenderás a usar operadores aritméticos y de comparación para hacer cálculos y tomar decisiones simples en tu código.
+
+***
+
+#### python
+
+Ejercicio 1:
+Crea variables para tu nombre, edad, altura y si te gusta programar.
+Imprime los valores y sus tipos.
+
+Ejercicio 2:
+Convierte "25" a número y súmale 10. Muestra el resultado.
+
+Ejercicio 3:
+Pide nombre y edad al usuario y calcula el año de nacimiento.
