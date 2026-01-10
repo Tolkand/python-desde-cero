@@ -8,7 +8,8 @@ En esta lección creamos nuestras primeras variables en Python y probamos tipos 
 ## 1. Introducción
 
 **Pregunta gancho**  
-¿Cómo hace un programa para “recordar” tu nombre, tu edad o un puntaje de juego?
+¿Cómo hace un programa para “recordar” tu nombre, tu edad o un puntaje de juego?.
+La respuesta corta es: usando **variables**. Una variable es un espacio en la memoria con un nombre, donde el programa puede guardar y recuperar información cuando la necesite.
 
 **Objetivos de la lección**
 - Entender qué es una variable.
@@ -122,13 +123,14 @@ Forma correcta:
 
  *print(resultado)  # 15
 
- 
+
 
 ---
 
 ## 4. Ejercicios
 Puedes escribir y probar estos ejercicios en
 modulo-1-fundamentos/ejercicios/ejercicios_leccion_1.py
+
 
 Ejercicio 1 (fácil)
 
@@ -145,6 +147,7 @@ Ejercicio 1 (fácil)
 - Muestra cada variable junto con su tipo usando type().
 
 
+
 Ejercicio 2 (medio)
 
     *Tienes este código:
@@ -152,8 +155,10 @@ Ejercicio 2 (medio)
 ```python
     numero = "25"
 ```
+
     *Convierte 'numero' a int y súmale 10.
     *Completa el programa para que imprima 35.
+
 
 
 Ejercicio 3 (desafío)
