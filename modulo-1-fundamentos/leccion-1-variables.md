@@ -123,6 +123,19 @@ Forma correcta:
      print(resultado)  # 15
 
 
+
+### 3.4 Un primer vistazo a `input()` (adelanto)
+
+A veces queremos que el usuario escriba datos por teclado. Para eso usaremos la función `input()`.  
+La veremos con más detalle en la Lección 2, pero aquí va un primer ejemplo simple:
+
+```python
+nombre = input("¿Cómo te llamas? ")
+print("Hola", nombre)
+```
+
+
+
 ---
 
 ## 4. Ejercicios
