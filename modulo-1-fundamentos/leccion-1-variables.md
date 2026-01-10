@@ -135,7 +135,6 @@ print("Hola", nombre)
 ```
 
 
-
 ---
 
 ## 4. Ejercicios
@@ -143,7 +142,6 @@ Puedes escribir y probar estos ejercicios en
 modulo-1-fundamentos/ejercicios/ejercicios_leccion_1.py
 
  
-
  
 Ejercicio 1 (fácil)
 
