@@ -1,4 +1,4 @@
-text
+
 # Lección 1: Variables y Tipos de Datos
 
 En esta lección creamos nuestras primeras variables en Python y probamos tipos de datos básicos.
@@ -9,6 +9,7 @@ En esta lección creamos nuestras primeras variables en Python y probamos tipos 
 
 **Pregunta gancho**  
 ¿Cómo hace un programa para “recordar” tu nombre, tu edad o un puntaje de juego?.
+
 La respuesta corta es: usando **variables**. Una variable es un espacio en la memoria con un nombre, donde el programa puede guardar y recuperar información cuando la necesite.
 
 **Objetivos de la lección**
@@ -45,13 +46,13 @@ edad = 28
 
 En Python usaremos, por ahora, estos tipos:
 
-    *int: números enteros (10, -3, 2026)
+    -int: números enteros (10, -3, 2026)
 
-    *float: números con decimales (3.14, 1.75)
+    -float: números con decimales (3.14, 1.75)
 
-    *str: texto entre comillas ("Hola", 'Python')
+    -str: texto entre comillas ("Hola", 'Python')
 
-    *bool: verdadero o falso (True, False)
+    -bool: verdadero o falso (True, False)
 
 Ejemplo:
 
@@ -90,9 +91,9 @@ print("Edad:", edad)
 
 Salida:
 
-Nombre: Ana
+  -Nombre: Ana
 
-Edad: 28
+  -Edad: 28
 
 
 ### 3.2 Conversión de tipos (casting)
@@ -113,16 +114,12 @@ print(texto_numero + 50)     # 150
 
 Esto produce error:
 
- *resultado = "10" + 5
-
-
+  -resultado = "10" + 5
 
 Forma correcta:
 
- *resultado = int("10") + 5
-
- *print(resultado)  # 15
-
+  -resultado = int("10") + 5
+  -print(resultado)  # 15
 
 
 ---
@@ -134,46 +131,46 @@ modulo-1-fundamentos/ejercicios/ejercicios_leccion_1.py
 
 Ejercicio 1 (fácil)
 
-- Crea variables para:
+Crea variables para:
 
-    *Tu nombre (str)
+  -Tu nombre (str)
 
-    *Tu edad (int)
+  -Tu edad (int)
 
-    *Tu altura en metros (float)
+  -Tu altura en metros (float)
 
-    *Si te gusta programar (bool)
+  -Si te gusta programar (bool)
 
-- Muestra cada variable junto con su tipo usando type().
+Muestra cada variable junto con su tipo usando type().
 
 
 
 Ejercicio 2 (medio)
 
-    *Tienes este código:
+  -Tienes este código:
 
 ```python
     numero = "25"
 ```
 
-    *Convierte 'numero' a int y súmale 10.
-    *Completa el programa para que imprima 35.
+  -Convierte 'numero' a int y súmale 10.
+  -Completa el programa para que imprima 35.
 
 
 
 Ejercicio 3 (desafío)
 
-    *Escribe un programa que:
+  -Escribe un programa que:
 
-    *Pida tu nombre por teclado.
+  -Pida tu nombre por teclado.
 
-    *Pida tu edad por teclado.
+  -Pida tu edad por teclado.
 
-    *Calcule en qué año naciste (puedes suponer que estamos en 2026).
+  -Calcule en qué año naciste (puedes suponer que estamos en 2026).
 
-    *Muestre un mensaje como:
+  -Muestre un mensaje como:
 
-     Hola Ana, probablemente naciste en 1998.
+   Hola Ana, probablemente naciste en 1998.
 
 ---
 
@@ -181,11 +178,11 @@ Ejercicio 3 (desafío)
 
 En esta lección viste:
 
-    *Qué es una variable y cómo declararla.
+  -Qué es una variable y cómo declararla.
 
-    *Cuatro tipos básicos: int, float, str, bool.
+  -Cuatro tipos básicos: int, float, str, bool.
 
-    *Cómo usar type() y cómo convertir entre tipos.
+  -Cómo usar type() y cómo convertir entre tipos.
 
 
 **En la próxima lección aprenderás a usar operadores aritméticos y de comparación para hacer cálculos y tomar decisiones simples.**
