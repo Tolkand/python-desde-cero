@@ -1,94 +1,101 @@
+text
 # Lección 1: Variables y Tipos de Datos
 
-En esta lección creo mis primeras variables en Python y pruebo distintos tipos de datos básicos.
+En esta lección creamos nuestras primeras variables en Python y probamos tipos de datos básicos.
 
 ---
 
 ## 1. Introducción
 
-**Pregunta gancho:**  
-¿Cómo hace un programa para “recordar” datos como tu nombre, tu edad o un puntaje?
+**Pregunta gancho**  
+¿Cómo hace un programa para “recordar” tu nombre, tu edad o un puntaje de juego?
 
-**Qué aprenderás en esta lección:**
-- Qué es una variable.
-- Qué tipos de datos básicos existen en Python.
-- Cómo mostrar esos valores por pantalla.
+**Objetivos de la lección**
+- Entender qué es una variable.
+- Conocer los tipos básicos: `int`, `float`, `str`, `bool`.
+- Escribir un pequeño programa usando variables.
 
-**Por qué importa:**  
-Casi todo programa guarda y usa información. Las variables son la base de todo lo que vendrá después.
-
-Conexión con la siguiente lección: en la próxima clase usarás estas variables para hacer **operaciones** con operadores aritméticos y lógicos.
+**Por qué es importante**  
+Todas las aplicaciones que guardan información usan variables. Sin entender esto, nada de lo que viene después tiene base sólida.
 
 ---
 
-## 2. Conceptos básicos
+## 2. Conceptos clave
 
 ### 2.1 ¿Qué es una variable?
 
 Una **variable** es un nombre que apunta a un valor en memoria.  
-En la práctica, puedes pensarla como una **caja etiquetada** donde guardas algo.
+La puedes imaginar como una **caja con etiqueta** donde guardas algo.
 
-Sintaxis:
+Sintaxis básica:
 
-#### python
+```python
 nombre_variable = valor
-Ejemplo:
+```
 
-#### python
+- Ejemplo:
+
+```python
 nombre = "Ana"
 edad = 28
-
+```
 
 ### 2.2 Tipos de datos básicos
+En Python usaremos, por ahora, estos tipos:
 
-Python trae varios tipos de datos integrados. En esta lección veremos 4:
+    *int: números enteros (10, -3, 2026)
 
-int: números enteros (sin decimales).
+    *float: números con decimales (3.14, 1.75)
 
-float: números decimales.
+    *str: texto entre comillas ("Hola", 'Python')
 
-str: texto (cadenas de caracteres).
+    *bool: verdadero o falso (True, False)
 
-bool: valores lógicos, True o False.
+- Ejemplo:
 
-Ejemplo:
+```python
+entero = 10
+decimal = 3.14
+texto = "Python"
+es_programador = True
+```
 
-python
-entero = 10          # int
-decimal = 3.14       # float
-texto = "Python"     # str
-es_programador = True  # bool
-Para saber qué tipo tiene una variable:
+- Para ver el tipo:
 
-python
-print(type(entero))        # <class 'int'>
-print(type(decimal))       # <class 'float'>
-print(type(texto))         # <class 'str'>
-print(type(es_programador))# <class 'bool'>
+```python
+print(type(entero))          # <class 'int'>
+print(type(decimal))         # <class 'float'>
+print(type(texto))           # <class 'str'>
+print(type(es_programador))  # <class 'bool'>
+```
 
+---
 
+## 3. Ejemplos prácticos
 
-### 3. Ejemplos prácticos
-#### 3.1 Ejemplo básico
+El código completo de estos ejemplos está en
+modulo-1-fundamentos/ejemplos/ejemplos_semana_1.py
 
+### 3.1 Ejemplo básico de variables
 
-python
+```python
 nombre = "Ana"
 edad = 28
 
 print("Nombre:", nombre)
 print("Edad:", edad)
-Salida esperada:
+```
 
-text
+- Salida:
+
 Nombre: Ana
 Edad: 28
 
 
 ### 3.2 Conversión de tipos (casting)
-Muchas veces necesitas convertir datos. Por ejemplo, de número a texto o de texto a número.
 
-python
+
+```python
 numero = 42
 numero_texto = str(numero)   # "42"
 
@@ -97,76 +104,73 @@ texto_numero = int(texto)    # 100
 
 print(type(numero_texto))    # <class 'str'>
 print(texto_numero + 50)     # 150
+```
 
 
-### 3.3 Error común  
+### 3.3 Error común
 
-python
-Esto genera error:
+- Esto produce error:
 resultado = "10" + 5
 
-Forma correcta:
+- Forma correcta:
 resultado = int("10") + 5
 print(resultado)  # 15
 
+---
 
-### 4. Ejercicios
+## 4. Ejercicios
+Puedes escribir y probar estos ejercicios en
+modulo-1-fundamentos/ejercicios/ejercicios_leccion_1.py
 
-Ejercicio 1 (fácil)
+- Ejercicio 1 (fácil)
+
 Crea variables para:
 
-Tu nombre (str).
+Tu nombre (str)
 
-Tu edad (int).
+Tu edad (int)
 
-Tu altura en metros (float).
+Tu altura en metros (float)
 
-Si te gusta programar (bool).
+Si te gusta programar (bool)
 
-Muestra cada una en pantalla junto con su tipo.
+- Muestra cada variable junto con su tipo usando type().
 
-#### Ejercicio 2 (medio)
+- Ejercicio 2 (medio)
 Tienes este código:
 
-python
+```python
 numero = "25"
-Convierte 'numero' a int y súmale 10.
-Completa el código para que Python imprima 35.
+```
+    *Convierte 'numero' a int y súmale 10.
+    *Completa el programa para que imprima 35.
 
-Ejercicio 3 (desafío)
-Escribe un programa que:
+- Ejercicio 3 (desafío)
 
-Pida tu nombre por teclado.
+    *Escribe un programa que:
 
-Pida tu edad por teclado.
+    *Pida tu nombre por teclado.
 
-Calcule en qué año naciste (puedes suponer que estamos en 2026).
+    *Pida tu edad por teclado.
 
-Muestre un mensaje como:
-Hola Ana, probablemente naciste en 1998.
+    *Calcule en qué año naciste (puedes suponer que estamos en 2026).
 
-### 5. Resumen y siguiente paso
+    *Muestre un mensaje como:
+     Hola Ana, probablemente naciste en 1998.
+
+---
+
+## 5. Resumen y siguiente paso
 
 En esta lección viste:
 
-Qué es una variable.
+    *Qué es una variable y cómo declararla.
 
-Cuatro tipos básicos: int, float, str, bool.
+    *Cuatro tipos básicos: int, float, str, bool.
 
-Cómo usar type() y cómo hacer conversiones de tipo.
+    *Cómo usar type() y cómo convertir entre tipos.
 
-En la próxima lección aprenderás a usar operadores aritméticos y de comparación para hacer cálculos y tomar decisiones simples en tu código.
 
-***
+**En la próxima lección aprenderás a usar operadores aritméticos y de comparación para hacer cálculos y tomar decisiones simples.**
 
-#### python
 
-Ejercicio 1:
-Crea variables para tu nombre, edad, altura y si te gusta programar.
-Imprime los valores y sus tipos.
-
-Ejercicio 2:
-Convierte "25" a número y súmale 10. Muestra el resultado.
-
-Ejercicio 3:
-Pide nombre y edad al usuario y calcula el año de nacimiento.
