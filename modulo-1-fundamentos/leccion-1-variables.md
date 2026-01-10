@@ -33,7 +33,7 @@ Sintaxis básica:
 nombre_variable = valor
 ```
 
-- Ejemplo:
+Ejemplo:
 
 ```python
 nombre = "Ana"
@@ -41,6 +41,7 @@ edad = 28
 ```
 
 ### 2.2 Tipos de datos básicos
+
 En Python usaremos, por ahora, estos tipos:
 
     *int: números enteros (10, -3, 2026)
@@ -51,7 +52,7 @@ En Python usaremos, por ahora, estos tipos:
 
     *bool: verdadero o falso (True, False)
 
-- Ejemplo:
+Ejemplo:
 
 ```python
 entero = 10
@@ -60,7 +61,7 @@ texto = "Python"
 es_programador = True
 ```
 
-- Para ver el tipo:
+Para ver el tipo:
 
 ```python
 print(type(entero))          # <class 'int'>
@@ -86,14 +87,13 @@ print("Nombre:", nombre)
 print("Edad:", edad)
 ```
 
-- Salida:
+Salida:
 
 Nombre: Ana
 Edad: 28
 
 
 ### 3.2 Conversión de tipos (casting)
-
 
 ```python
 numero = 42
@@ -109,12 +109,13 @@ print(texto_numero + 50)     # 150
 
 ### 3.3 Error común
 
-- Esto produce error:
-resultado = "10" + 5
+Esto produce error:
+ *resultado = "10" + 5
 
-- Forma correcta:
-resultado = int("10") + 5
-print(resultado)  # 15
+
+Forma correcta:
+ *resultado = int("10") + 5
+ *print(resultado)  # 15
 
 ---
 
@@ -122,30 +123,33 @@ print(resultado)  # 15
 Puedes escribir y probar estos ejercicios en
 modulo-1-fundamentos/ejercicios/ejercicios_leccion_1.py
 
-- Ejercicio 1 (fácil)
+Ejercicio 1 (fácil)
 
-Crea variables para:
+- Crea variables para:
 
-Tu nombre (str)
+    *Tu nombre (str)
 
-Tu edad (int)
+    *Tu edad (int)
 
-Tu altura en metros (float)
+    *Tu altura en metros (float)
 
-Si te gusta programar (bool)
+    *Si te gusta programar (bool)
 
 - Muestra cada variable junto con su tipo usando type().
 
-- Ejercicio 2 (medio)
-Tienes este código:
+
+Ejercicio 2 (medio)
+
+    *Tienes este código:
 
 ```python
-numero = "25"
+    numero = "25"
 ```
     *Convierte 'numero' a int y súmale 10.
     *Completa el programa para que imprima 35.
 
-- Ejercicio 3 (desafío)
+
+Ejercicio 3 (desafío)
 
     *Escribe un programa que:
 
@@ -156,6 +160,7 @@ numero = "25"
     *Calcule en qué año naciste (puedes suponer que estamos en 2026).
 
     *Muestre un mensaje como:
+    
      Hola Ana, probablemente naciste en 1998.
 
 ---
