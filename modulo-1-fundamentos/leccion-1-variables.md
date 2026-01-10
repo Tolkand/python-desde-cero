@@ -111,12 +111,18 @@ print(texto_numero + 50)     # 150
 ### 3.3 Error común
 
 Esto produce error:
+
  *resultado = "10" + 5
 
 
+
 Forma correcta:
+
  *resultado = int("10") + 5
+
  *print(resultado)  # 15
+
+ 
 
 ---
 
