@@ -66,13 +66,16 @@ print("Potencia:", potencia)
 ## 3. Operadores de comparación
 Los operadores de comparación devuelven siempre un valor booleano: True o False.
 
-Operador	Significado	       Ejemplo
-==	        Igual que	       5 == 5 → True
-!=	       Distinto de	       5 != 3 → True
->	        Mayor que	       5 > 3 → True
-<	        Menor que	       3 < 5 → True
->=	     Mayor o igual que	   5 >= 5 → True
-<=	     Menor o igual que	   3 <= 5 → True
+| Operador | Significado        | Ejemplo        |
+|--------- |--------------------|----------------|
+| ==       | Igual que          | 5 == 5 → True  |
+| !=       | Distinto de        | 5 != 3 → True  |
+| >        | Mayor que          | 5 > 3 → True   |
+| <        | Menor que          | 3 < 5 → True   |
+| >=       | Mayor o igual que  | 5 >= 5 → True  |
+| <=       | Menor o igual que  | 3 <= 5 → True  |
+
+
 
 
 Ejemplo:
