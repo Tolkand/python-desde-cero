@@ -90,6 +90,7 @@ print("Edad:", edad)
 Salida:
 
 Nombre: Ana
+
 Edad: 28
 
 
@@ -160,7 +161,7 @@ Ejercicio 3 (desafío)
     *Calcule en qué año naciste (puedes suponer que estamos en 2026).
 
     *Muestre un mensaje como:
-    
+
      Hola Ana, probablemente naciste en 1998.
 
 ---
