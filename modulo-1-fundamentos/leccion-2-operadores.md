@@ -261,12 +261,12 @@ modulo-1-fundamentos/ejercicios/ejercicios_leccion_2.py
 
 En esta lección viste:
 
-Cómo usar operadores aritméticos para hacer cuentas básicas.
+  - Cómo usar operadores aritméticos para hacer cuentas básicas.
 
-Cómo usar operadores de comparación para obtener valores True o False.
+  - Cómo usar operadores de comparación para obtener valores True o False.
 
-Cómo combinar condiciones con and, or, not.
+  - Cómo combinar condiciones con and, or, not.
 
-Cómo usar input() para hacer pequeños programas interactivos.
+  - Cómo usar input() para hacer pequeños programas interactivos.
 
 **En la próxima lección crearás condicionales if, elif, else, usando todas estas comparaciones y operadores lógicos para tomar decisiones reales en tu código.**
