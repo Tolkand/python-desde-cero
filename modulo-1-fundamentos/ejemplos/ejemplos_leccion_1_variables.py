@@ -10,3 +10,4 @@ es_programador = True  # bool
 print("Edad:", edad, type(edad))
 print("Altura:", altura, type(altura))
 print("¿Programador?:", es_programador, type(es_programador))
+
