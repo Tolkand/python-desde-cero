@@ -187,6 +187,8 @@ print("¿Puede entrar?", puede_entrar)
 Puedes guardar las soluciones en
 modulo-1-fundamentos/ejercicios/ejercicios_leccion_2.py
 
+
+
 Ejercicio 1 (fácil) – Operaciones básicas
 
   Pide por teclado dos números y muestra:
@@ -202,6 +204,8 @@ Ejercicio 1 (fácil) – Operaciones básicas
   Usa float() para permitir decimales.
 
 
+
+
 Ejercicio 2 (medio) – Comparar edades
 
   Pide la edad de dos personas y muestra:
@@ -215,6 +219,8 @@ Ejercicio 2 (medio) – Comparar edades
   Usa operadores de comparación.
 
 
+
+
 Ejercicio 3 (medio) – Aprobado o reprobado
 
   Pide una nota (0 a 100) y muestra:
@@ -224,6 +230,8 @@ Ejercicio 3 (medio) – Aprobado o reprobado
   False en caso contrario.
 
   Usa una variable booleana aprobado = nota >= 60 y muéstrala con print(aprobado).
+
+  
 
 
 Ejercicio 4 (desafío) – Entrada a evento
