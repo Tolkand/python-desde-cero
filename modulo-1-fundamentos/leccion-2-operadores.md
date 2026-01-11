@@ -97,10 +97,13 @@ print(edad != 18)   # False
 ## 4. Operadores lógicos
 Los operadores lógicos permiten combinar comparaciones.[web:102][web:107][web:109]
 
-Operador	Significado	    Ejemplo
-and	             Y	        cond1 and cond2
-or	             O	        cond1 or cond2
-not	             NO	        not cond1
+
+| Operador |   Significado    |    Ejemplo      |
+|--------- |------------------|-----------------|
+| and      |      Y           | cond1 and cond2 |
+| or       |      O           | cond1 or cond2  |
+| not      |      NO          | not cond1       |
+
 
 Ejemplo:
 
@@ -152,7 +155,7 @@ modulo-1-fundamentos/ejemplos/ejemplos_leccion_2_operadores.py
 ### 6.1 Clasificar edad con comparación
 
 ```python
-edad = int(input("¿Cuál es tu edad? "))
+edad = int(input("¿Cuál es tu edad?"))
 
 es_menor = edad < 18
 es_adulto = edad >= 18
