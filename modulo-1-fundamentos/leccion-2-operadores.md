@@ -189,7 +189,7 @@ modulo-1-fundamentos/ejercicios/ejercicios_leccion_2.py
 
 
 
-Ejercicio 1 (fácil) – Operaciones básicas
+- Ejercicio 1 (fácil) – Operaciones básicas
 
   Pide por teclado dos números y muestra:
 
@@ -206,7 +206,7 @@ Ejercicio 1 (fácil) – Operaciones básicas
 
 
 
-Ejercicio 2 (medio) – Comparar edades
+- Ejercicio 2 (medio) – Comparar edades
 
   Pide la edad de dos personas y muestra:
 
@@ -221,7 +221,7 @@ Ejercicio 2 (medio) – Comparar edades
 
 
 
-Ejercicio 3 (medio) – Aprobado o reprobado
+- Ejercicio 3 (medio) – Aprobado o reprobado
 
   Pide una nota (0 a 100) y muestra:
 
@@ -234,7 +234,7 @@ Ejercicio 3 (medio) – Aprobado o reprobado
   
 
 
-Ejercicio 4 (desafío) – Entrada a evento
+- Ejercicio 4 (desafío) – Entrada a evento
 
   Un evento tiene estas reglas:
 
