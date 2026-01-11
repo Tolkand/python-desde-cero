@@ -24,7 +24,7 @@ La respuesta está en los **operadores**: símbolos como `+`, `-`, `==`, `>`, `a
 
 ## 2. Operadores aritméticos
 
-Los operadores **aritméticos** sirven para hacer cuentas con números.[web:105][web:109][web:113]
+Los operadores **aritméticos** sirven para hacer cuentas con números.
 
 | Operador | Significado      | Ejemplo        |
 |--------- |------------------|----------------|
@@ -95,7 +95,7 @@ print(edad != 18)   # False
 
 
 ## 4. Operadores lógicos
-Los operadores lógicos permiten combinar comparaciones.[web:102][web:107][web:109]
+Los operadores lógicos permiten combinar comparaciones.
 
 
 | Operador |   Significado    |    Ejemplo      |
@@ -123,7 +123,7 @@ print(es_menor_o_sin_entrada)  # False
 
 
 ## 5. Mini calculadora con input() (repaso)
-Aquí combinamos todo lo anterior con un uso básico de input(). Recuerda: input() siempre devuelve texto (str), por eso convertimos a int o float para poder sumar.[web:108][web:114][web:111]
+Aquí combinamos todo lo anterior con un uso básico de input(). Recuerda: input() siempre devuelve texto (str), por eso convertimos a int o float para poder sumar.
 
 ```python
 print("Calculadora súper simple")
