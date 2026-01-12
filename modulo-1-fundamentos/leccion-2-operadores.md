@@ -250,7 +250,7 @@ modulo-1-fundamentos/ejercicios/ejercicios_leccion_2.py
 
   Si está en la lista VIP (s/n).
 
-  Calcula una variable booleana puede_entrar usando operadores lógicos y muestra el resultado (True o False).
+  Calcula una variable booleana con operadores lógicos y muestra el resultado (True o False).
 
 ---
 
