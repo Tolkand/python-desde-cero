@@ -101,8 +101,7 @@ edad >= 18 and tiene_entrada_bool solo es True si las dos condiciones se cumplen
 
 
 ## 6. Ejemplos prácticos
-El código completo de esta lección puede ir en
-modulo-1-fundamentos/ejemplos/ejemplos_leccion_3_condicionales.py
+Veamos algunos ejemplos prácticos que nos ayudarán a comprender mejor la implementación de las condicionales.
 
 
 ### 6.1 Clasificar edad en rangos
@@ -138,8 +137,8 @@ else:
 
 ## 7. 
 
-Puedes guardar las soluciones en
-modulo-1-fundamentos/ejercicios/ejercicios_leccion_3.py
+Las soluciones las puedes encontrar en la carpeta ejercicios
+
 
 - Ejercicio 1 (fácil) – Par o impar
 Pide un número entero por teclado y muestra:
