@@ -22,4 +22,13 @@ print("la persona1 es mayor", persona1 > persona2)
 print("la persona2 es mayor", persona2 >  persona1)
 print("las edades son iguales", persona1 == persona2)
 print("la persona1 es mayor o igual a la persona2", persona1 >= persona2)
+
+
+#ejercicio 3 leccion_2_operadores
+
+ingresa = input("Ingresa tu nota(de 0 a 100):")
+
+aprobado = int(ingresa) >= 60   
+
+print("¿El estudiante está aprobado?", aprobado) 
      

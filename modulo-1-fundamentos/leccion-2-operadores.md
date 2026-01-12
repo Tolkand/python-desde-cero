@@ -229,7 +229,7 @@ modulo-1-fundamentos/ejercicios/ejercicios_leccion_2.py
 
   False en caso contrario.
 
-  Usa una variable booleana aprobado = nota >= 60 y muéstrala con print(aprobado).
+  Usa una variable booleana.
 
   
 
