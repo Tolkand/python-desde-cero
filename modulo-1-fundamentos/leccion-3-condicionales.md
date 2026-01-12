@@ -135,7 +135,7 @@ else:
 ```
 
 
-## 7. 
+## 7. Ejercicios
 
 Las soluciones las puedes encontrar en la carpeta ejercicios
 
