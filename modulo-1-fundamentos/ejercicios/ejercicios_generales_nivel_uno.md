@@ -1,5 +1,5 @@
-## Ejercicios Generales
-### Te entregamos 60 ejercicios con todo lo visto en el primer módulo. Cada uno con su respuesta. Desarróllalos solo, si necesitas ayuda ve a las soluciones como último recurso.
+## Ejercicios Generales nivel básico 1
+### Te entregamos 20 ejercicios con todo lo visto en el primer módulo. Cada uno con su respuesta. Desarróllalos solo, si necesitas ayuda ve a las soluciones como último recurso.
 
 ---
 
