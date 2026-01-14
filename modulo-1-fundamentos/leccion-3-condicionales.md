@@ -156,10 +156,10 @@ else:
 
 Casos típicos en programas reales:
 
-    Validar "sí/no", "si/no", "SÍ/NO"
-    Menús: "salir", "SALIR", "Salir"
-    Nombres de usuario (case-insensitive)
-    Procesar respuestas de formularios
+    Validar "sí/no", "si/no", "SÍ/NO".
+    Menús: "salir", "SALIR", "Salir".
+    Nombres de usuario (case-insensitive).
+    Procesar respuestas de formularios.
 
 - Ejemplo 1: Menú simple restaurante
 Para tu lección 3 - justo antes del ejercicio 24:
