@@ -150,10 +150,11 @@ else:
 - Cuándo usarlo (situaciones reales)
 Úsalo siempre cuando compares texto de usuario porque la gente escribe variado:
 
-    Usuario escribe: "SÍ", "Si", "si", "SÍ", "sI"
-    Sin lower(): necesitas 5 comparaciones
-    Con lower(): solo 1 comparación == "sí"
-    Casos típicos en programas reales:
+    Usuario escribe: "SÍ", "Si", "si", "SÍ", "sI".
+    Sin lower(): necesitas 5 comparaciones.
+    Con lower(): solo 1 comparación == "sí".
+
+Casos típicos en programas reales:
 
     Validar "sí/no", "si/no", "SÍ/NO"
     Menús: "salir", "SALIR", "Salir"
