@@ -142,23 +142,23 @@ else:
 - Sintaxis:
     texto.lower()
 
-No recibe parámetros
-Devuelve un nuevo string (el original no cambia)
-Solo afecta letras A-Z → a-z
+    No recibe parámetros
+    Devuelve un nuevo string (el original no cambia)
+    Solo afecta letras A-Z → a-z
 
 
 - Cuándo usarlo (situaciones reales)
 Úsalo siempre cuando compares texto de usuario porque la gente escribe variado:
 
-Usuario escribe: "SÍ", "Si", "si", "SÍ", "sI"
-Sin lower(): necesitas 5 comparaciones
-Con lower(): solo 1 comparación == "sí"
-Casos típicos en programas reales:
+    Usuario escribe: "SÍ", "Si", "si", "SÍ", "sI"
+    Sin lower(): necesitas 5 comparaciones
+    Con lower(): solo 1 comparación == "sí"
+    Casos típicos en programas reales:
 
-Validar "sí/no", "si/no", "SÍ/NO"
-Menús: "salir", "SALIR", "Salir"
-Nombres de usuario (case-insensitive)
-Procesar respuestas de formularios
+    Validar "sí/no", "si/no", "SÍ/NO"
+    Menús: "salir", "SALIR", "Salir"
+    Nombres de usuario (case-insensitive)
+    Procesar respuestas de formularios
 
 - Ejemplo 1: Menú simple restaurante
 Para tu lección 3 - justo antes del ejercicio 24:
