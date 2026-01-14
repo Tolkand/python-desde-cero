@@ -139,12 +139,11 @@ else:
 .lower() es un método de strings que convierte TODAS las letras mayúsculas de un texto a minúsculas. No afecta números, símbolos ni espacios.
 ​
 
-- Sintaxis:
-    texto.lower()
+- Sintaxis: texto.lower()
 
-    No recibe parámetros.
-    Devuelve un nuevo string (el original no cambia).
-    Solo afecta letras A-Z → a-z.
+    -No recibe parámetros.
+    -Devuelve un nuevo string (el original no cambia).
+    -Solo afecta letras A-Z → a-z.
 
 
 - Cuándo usarlo (situaciones reales)
