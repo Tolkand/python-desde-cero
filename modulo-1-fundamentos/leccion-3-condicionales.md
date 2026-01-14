@@ -135,7 +135,73 @@ else:
 ```
 
 
-## 7. Ejercicios
+## 7. Especificaciones del método lower()
+.lower() es un método de strings que convierte TODAS las letras mayúsculas de un texto a minúsculas. No afecta números, símbolos ni espacios.
+​
+
+- Sintaxis:
+    texto.lower()
+
+No recibe parámetros
+Devuelve un nuevo string (el original no cambia)
+Solo afecta letras A-Z → a-z
+
+
+- Cuándo usarlo (situaciones reales)
+Úsalo siempre cuando compares texto de usuario porque la gente escribe variado:
+
+Usuario escribe: "SÍ", "Si", "si", "SÍ", "sI"
+Sin lower(): necesitas 5 comparaciones
+Con lower(): solo 1 comparación == "sí"
+Casos típicos en programas reales:
+
+Validar "sí/no", "si/no", "SÍ/NO"
+Menús: "salir", "SALIR", "Salir"
+Nombres de usuario (case-insensitive)
+Procesar respuestas de formularios
+
+- Ejemplo 1: Menú simple restaurante
+Para tu lección 3 - justo antes del ejercicio 24:
+
+```python
+print("MENÚ RÁPIDO")
+print("1. Completo italiano")
+print("2. Hamburguesa")
+print("3. Salir")
+
+opcion = input("Elige opción (1/2/3): ")
+
+if opcion.lower() == "salir" or opcion.lower() == "3":
+    print("¡Gracias por visitarnos!")
+else:
+    print("Preparando tu pedido...")
+```
+
+
+- Ejemplo 2: Validación sí/no genérica
+Para explicar el concepto antes de los ejercicios grandes:
+
+```python
+pregunta = input("¿Cliente frecuente? (sí/no): ")
+es_frecuente = pregunta.lower() == "sí"
+
+if es_frecuente:
+    print("¡Hola cliente frecuente! 5% descuento")
+else:
+    print("¡Bienvenido!")
+```
+Guardamos la respuesta en es_frecuente como True o False. Así usamos el resultado después sin repetir lower().
+
+
+- Ejemplo 3: Directo en variable
+
+```python
+es_estudiante = input("¿Estudiante? (sí/no): ").lower() == "sí"
+```
+
+
+
+## 8. Ejercicios
 
 Las soluciones las puedes encontrar en la carpeta ejercicios
 
@@ -201,7 +267,7 @@ Usa if / elif / else y input().
 
 
 
-## 8. Resumen y siguiente paso
+## 9. Resumen y siguiente paso
 En esta lección viste:
 
 - Cómo usar if para ejecutar código solo cuando una condición es verdadera.
